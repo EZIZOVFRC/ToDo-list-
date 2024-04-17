@@ -27,7 +27,7 @@ addTodo.addEventListener('click', (e) => {
         e.target.parentElement.parentElement.style.display = 'none';
     });
     
-    newLi.append(crossBtn, newP, newBtn); // Çapraz butonu ilk olarak ekliyoruz
+    newLi.append(crossBtn, newP, newBtn);
     list.appendChild(newLi);
     inp.value = '';
     counter++;

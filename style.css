@@ -18,7 +18,6 @@ body {
     border-radius: 10px;
     padding: 10px;
     border: none;
-    flex-grow: 1; /* Input alanını genişletir */
 }
 
 .inpp button {
@@ -44,7 +43,7 @@ ul {
 
 ul li {
     display: flex;
-    background-color: white; /* Liste öğelerinin arka plan rengi */
+    background-color: white;
     border-radius: 10px;
     padding: 0px;
     margin-left: -5%;
